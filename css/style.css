@@ -1,0 +1,101 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    /* font-family: ; */
+    background: hsl(217, 54%, 11%);
+    width: 100%;
+    line-height: 1.4;
+}
+
+img {
+    width: 100%;
+}
+
+.container{
+    background: hsl(216, 50%, 16%);
+    height: 570px;
+    max-width: 350px;
+    margin:  auto;
+    border-radius: 20px;
+}
+.container  img{
+    margin: 30px auto 0 auto;
+    display: block;
+    height: 60%;
+    width: 100%;
+    padding: 30px 30px 30px 30px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 30px;
+}
+.content h1{
+    color: #fff;
+}
+
+.content p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.content h1{
+    font-size: 1.7rem;
+    padding-bottom: 14px;
+    font-weight: 500;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.timeline .ETH{
+    color: hsl(178, 100%, 50%);
+}
+
+.timeline p{
+    color: hsl(215, 51%, 70%);
+}
+
+.timeline svg{
+    padding-top: 2px;
+}
+.creator,
+.creator p{
+ display: flex;
+ color: hsl(215, 51%, 70%);
+}
+
+.creator p{
+    align-items: center;
+    padding-left: 15px;
+}
+
+span{
+    color: white;
+    padding-left: 5px;
+}
+
+.creator img{
+    width: 3vw;
+    height: 6vh;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 10px 0;
+    padding: 0; 
+    object-fit: cover;
+
+}
+
+
