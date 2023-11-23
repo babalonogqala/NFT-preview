@@ -5,7 +5,7 @@
 } 
 
 body{
-    /* font-family: ; */
+    font-family: 'Outfit', sans-serif;
     background: hsl(217, 54%, 11%);
     width: 100%;
     line-height: 1.4;
@@ -32,6 +32,9 @@ img {
     object-fit: cover;
 }
 
+.container img:hover{
+    color: #00fff7;
+}
 .sub-container{
     display: flex;
     flex-direction: column;
@@ -40,6 +43,10 @@ img {
 }
 .content h1{
     color: #fff;
+}
+
+.content h1:hover{
+    color: #00fff7;
 }
 
 .content p{
@@ -61,7 +68,7 @@ img {
 }
 
 .timeline .ETH{
-    color: hsl(178, 100%, 50%);
+    color: #00fff7 ;
 }
 
 .timeline p{
@@ -74,6 +81,9 @@ img {
 .creator,
 .creator p{
  display: flex;
+ flex-direction: row;
+ justify-content: flex-start;
+ align-items: center;
  color: hsl(215, 51%, 70%);
 }
 
@@ -87,14 +97,18 @@ span{
     padding-left: 5px;
 }
 
+span:hover{
+    color: #00fff7;
+}
+
 .creator img{
-    width: 3vw;
+    width: 3vw; 
     height: 6vh;
     border: 1px solid #fff;
     border-radius: 50%;
-    margin: 10px 0;
+    margin: 10px 0; 
     padding: 0; 
-    object-fit: cover;
+    object-fit: cover; 
 
 }
 
